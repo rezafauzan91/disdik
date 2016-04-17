@@ -23,11 +23,11 @@ article, aside, details, figcaption, figure, footer, header, hgroup, nav, sectio
     width: 100%;
 }
 a {
-    color: #036;
+    color: #a79235;
     text-decoration: none;
 }
 a:hover {
-    color: #a41d31;
+    text-decoration: underline;
     -webkit-transition-duration: 0.3s;
     -moz-transition-duration: 0.3s;
     transition-duration: 0.3s;
@@ -201,6 +201,7 @@ a.button:hover, #respond input#submit:hover, input#searchsubmit:hover {
 }
 #menu-main a:hover, #menu-main li.current-menu-item a, #menu-main a:active, #menu-main li.current-item a {
     color: #e0c572;
+    text-decoration: none;
 }
 #nav-main-menu .dropdown ul {
     position: absolute;
@@ -521,7 +522,36 @@ a.invert {
 #main .column-narrow-child {
     width: 31.4685%;
 }
-
+/*detail post*/
+h1.post-title {
+    color: #036;
+    font-size: 22px;
+    font-weight: bold;
+    line-height: 1.5em;
+    margin: 0 0 10px;
+}
+.single #main p.post-meta, .page #main p.post-meta {
+    margin-top: 8px;
+}
+div.divider {
+    border-top: solid 1px #e7e7e7;
+    clear: none;
+    margin: 20px 0;
+}
+.post-content {
+    font-size: 14px;
+    line-height: 23px;
+    max-width: 100%;
+}
+#dd_start, #dd_end {
+    float: left;
+    clear: both;
+}
+.post-content img.alignnone, .post-content img.aligncenter, .post-content img.alignleft, .post-content img.alignright {
+    max-width: 100%;
+    width: auto;
+    height: auto;
+}
 
 /*footer*/
 footer {
