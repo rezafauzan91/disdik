@@ -32,4 +32,9 @@ class ProfileController extends Zend_Controller_Action
     {
         // action body
     }
+
+    public function visimisiAction()
+    {
+        // action body
+    }
 }
