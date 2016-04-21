@@ -594,7 +594,7 @@ div.divider {
 }
 /*login page*/
 .login-form fieldset {
-    width: 100%;
+    width: 55%;
 }
 .login-form .step-content {
     width: 46%;
